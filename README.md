@@ -79,6 +79,9 @@ The link refers to the latest version aviable, older versions are found in the [
 
 The images are imported into WSL using the `--import` command. Here a destination for the Linux filesystem also needs to be supplied, and as the WSL images can be seen as an additional part to the exOS Technology package, it makes sense to create a `WSL` folder inside the `BrAutomation` folder and place the Linux filesystems there. 
 
+    cd C:\BrAutomation
+    mkdir WSL
+
 #### Build environment
 
 The name of the build enviroment should be `Debian` as the default exospkg will call `wsl -d Debian` when executing the `<BuildCommand>` as part of the Automation Studio build process.
