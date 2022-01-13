@@ -28,15 +28,17 @@ Furthermore, a WSL-based target system with a preinstalled exos-server (`wsl_deb
 
 ![](Topology.png)
 
+---
+
 ### Download
 
-The images are based on a certain version (`ver`) of debian, for example `10` for `buster`.
+The images are based on a certain version of debian, for example `10` for `buster`.
 
-The images have the exOS library/server installed for a certain Technology Package version (`TP_ver`), and are thus versioned accordingly. 
+The images have the exOS library/server installed for a certain Technology Package version, and are thus versioned accordingly. 
 
 The link refers to the latest version aviable, older versions are found in the [WSL-images](WSL-images) folder.
 
-- [`wsl_debian-{ver}_build_{TP_ver}.tar`](WSL-images/wsl_debian-10_build_2.0.0.tar) 
+- [`wsl_debian-10_build_2.0.0.tar`](WSL-images/wsl_debian-10_build_2.0.0.tar) 
 
     WSL Build environment for with the exOS API library for building sources
 
@@ -54,7 +56,7 @@ The link refers to the latest version aviable, older versions are found in the [
     - npm
     - swig
 
-- [`wsl_debian-{ver}_target_{TP_ver}.tar`](WSL-images/wsl_debian-10_target_2.0.0.tar)
+- [`wsl_debian-10_target_2.0.0.tar`](WSL-images/wsl_debian-10_target_2.0.0.tar)
 
     WSL target environment with the exOS OPCUA deployment server
 
