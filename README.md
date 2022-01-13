@@ -22,7 +22,7 @@ The exOS Technology Package offers installers for the exOS-specific build infras
 
 ### Deployment target
 
-Furthermore, a WSL-based target system with a preinstalled exos-server (`wsl_debian-{ver}_target`) is available, which can be used in together with ARsim, to run the complete exOS project in a simulated environment. For "naked" images, the exOS help contains a chapter on how to install 
+Furthermore, a WSL-based target system with a preinstalled exos-server (`wsl_debian-{ver}_target`) is available, which can be used in together with ARsim, to run the complete exOS project in a simulated environment. For "naked" images, the exOS help contains chapters on how to install systemd via systemd-genie and the exos-server.
 
 ### Topology
 
