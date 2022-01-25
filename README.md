@@ -96,7 +96,11 @@ As this enviroment is most likely to be used in conjunction with VsCode Remote, 
 
 #### Deployment target
 
-> When using the deployment target, the exos-server will open the OPCUA port 4840 on the localhost (127.0.0.1). It is therefore important, that when this is used together with ARSim, the OPCUA server of Automation Runtime is set to an alternative port, for example 4841. 
+To use the deployment target WSL image for ARsim, Deployment needs to be switched `On` in the *exostarget* configuration.
+
+![](ActivateDeployment.png)
+
+> When starting deployment target WSL-image, the exos-server will open the OPCUA port 4840 on the localhost (127.0.0.1). It is therefore important, that when this is used together with ARSim, the OPCUA server of Automation Runtime is set to an alternative port, for example 4841. This setting is found in the CPU->Configuration in the Physical view.
 >
 > ![](AROPCUAServer.png)
 
@@ -109,6 +113,8 @@ The preinstalled WSL-target image for Debian 10 / TP 2.0.0 is imported as follow
 The WSL deployment target is started as a tab within the [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/install) or via the command 
 
     wsl -d DebianTarget
+
+The deployment server needs root access, so the sudo password needs to be entered when starting up. It is displayed in the console. 
 
 ---
 
