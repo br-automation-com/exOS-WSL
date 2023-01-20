@@ -56,7 +56,7 @@ The link refers to the latest version aviable, older versions are found in the [
     - npm
     - swig
 
-- [`wsl_debian-10_target_2.0.0.tar`](https://github.com/br-automation-com/exOS-WSL/raw/main/WSL-images/wsl_debian-10_target_2.0.0.tar)
+- [`wsl_debian-10_target_2.1.0.tar`](https://github.com/br-automation-com/exOS-WSL/raw/main/WSL-images/wsl_debian-10_target_2.1.0.tar)
 
     WSL target environment with the exOS OPCUA deployment server
 
